@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "credible": {
+      "type": "remote",
+      "url": "https://mcp.credibledata.com/global/",
+      "enabled": true,
+      "headers": {
+        "Credible-Client": "opencode",
+        "Credible-Client-Version": "0.2.0",
+        "Credible-Skills-Version": "v0.0.23"
+      }
+    }
+  }
+}
